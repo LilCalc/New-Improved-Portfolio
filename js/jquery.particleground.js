@@ -373,7 +373,7 @@
   };
 
   window[pluginName].defaults = {
-    minSpeedX: 0.1,
+    minSpeedX: 0.5,
     maxSpeedX: 0.7,
     minSpeedY: 0.1,
     maxSpeedY: 0.7,
@@ -382,8 +382,8 @@
     density: 10000, // How many particles will be generated: one particle every n pixels
     dotColor: '#666666',
     lineColor: '#666666',
-    particleRadius: 7, // Dot size
-    lineWidth: 1,
+    particleRadius: 10, // Dot size
+    lineWidth: 2,
     curvedLines: false,
     proximity: 100, // How close two dots need to be before they join
     parallax: true,
