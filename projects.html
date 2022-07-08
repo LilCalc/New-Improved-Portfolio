@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <base target="_blank">
+  <meta charset="UTF-8" />
+  <title>Noah Developer</title>
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
+  <!-- remember, jQuery is completely optional -->
+  <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
+  <script type="text/javascript" src="js/jquery.particleground.js"></script>
+  <script type="text/javascript" src="js/demo.js"></script>
+</head>
+<body>
+    <div id="particles">
+        <div id="intro">
+            <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 10;">Projects&nbsp
+                <a href="Resume (2).pdf" style="color: white;"><img src="./assets/icons8-resume-64.png" height="35" width="35"></a>
+                <a href="./index.html" style="color:white;"><img src="./assets/icons8-undo-64.png" height="35" width="35"></a>
+            </h2>
+              <hr style="width: 50%; background-color: #E83951; border-color: #E83951;">
+          <a href="https://lilcalc.github.io/Challenges/Docs/urban-octo-telegram-main/Develop/" style="color: white;"><img src="./images/Gold-Glitter-Glow-Stones-Jewelry-Patterns-Design-Abstract-Bright-Light-Wallpapers.jpg" height="100" width="200">Horieseon Services</a>
+          &nbsp
+          <a href="https://supportlocackc123.herokuapp.com/" style="color: white;"><img src="./images/Gold-Glitter-Glow-Stones-Jewelry-Patterns-Design-Abstract-Bright-Light-Wallpapers.jpg" height="100" width="200">Support Local KC</a>
+          &nbsp
+          <a href="https://samschool789.github.io/sporting-events/" style="color: white;"><img src="./images/Gold-Glitter-Glow-Stones-Jewelry-Patterns-Design-Abstract-Bright-Light-Wallpapers.jpg" height="100" width="200">Concert Explorer</a>
+          &nbsp
+          <a href="https://samschool789.github.io/sporting-events/" style="color: white;"><img src="./images/Gold-Glitter-Glow-Stones-Jewelry-Patterns-Design-Abstract-Bright-Light-Wallpapers.jpg" height="100" width="200">Concert Explorer</a>
+          &nbsp
+          <a href="https://samschool789.github.io/sporting-events/" style="color: white;"><img src="./images/Gold-Glitter-Glow-Stones-Jewelry-Patterns-Design-Abstract-Bright-Light-Wallpapers.jpg" height="100" width="200">Concert Explorer</a>
+          &nbsp
+          <a href="https://samschool789.github.io/sporting-events/" style="color: white;"><img src="./images/Gold-Glitter-Glow-Stones-Jewelry-Patterns-Design-Abstract-Bright-Light-Wallpapers.jpg" height="100" width="200">Concert Explorer</a>
+          &nbsp
+         </div>
+      </div>
+
+<article>
+
+    <div id="work" class="work-wrapper"> 
+        <div class="work-grid-container"> 
+            <div class="work-item work-title"> 
+                <p> Work </p>
+            </div>
+            <div onclick="projectClicked('challenge-1-refactor')" alt="Image Displaying the Horiseon landing Page" title="Horiseon landing Page" target="_blank" style="cursor: pointer;" class="work-item-project challenge-1-refactor">
+                <span class="span-background"> 
+                    <h3>Horiseon Services</h3>
+                    <span class="lower-text">HTML/CSS</span> 
+                </span>
+            </div>
+            <div onclick="projectClicked('Support-local-kc')" alt="Image Displaying the Support-local-kc landing Page" title="Support-local-kc landing page" style="cursor: pointer;" class="work-item-project Support-local-kc">
+                <span class="span-background">
+                    <h3>Support-local-kc</h3>
+                    <span class="lower-text">Javascript/SQL</span>
+                </span>
+            </div>
+            <div onclick="projectClicked('concert-explorer')" alt="Image Displaying the concert-explorer landing page" title="concert-explorer landing page" style="cursor: pointer;" class="work-item-project concert-explorer">
+                <span class="span-background">
+                    <h3>Concert Explorer</h3>
+                    <span class="lower-text">Javascript</span>
+                </span>
+            </div>
+            <div onclick="projectClicked(`babblingBrook`)" alt="Image Displaying babblingBrook" title="babblingBrook" style="cursor: pointer;" class="work-item-project babblingBrook">
+                <span class="span-background">
+                    <h3>Babbling Brook</h3>
+                    <span class="lower-text">Javascript/SQL</span>
+                </span>
+            </div>
+            </div>
+        </div>
+    </div>
+</article>
+<script> 
+    function projectClicked(input) { 
+        var input = input; 
+
+        if (input == "challenge-1-refactor") { 
+            window.open("https://lilcalc.github.io/Challenges/Docs/urban-octo-telegram-main/Develop/");
+        } else if (input == "Support-local-kc") {
+            window.open("https://supportlocackc123.herokuapp.com/");
+        } 
+        else if (input == 'concert-explorer') {
+            window.open('https://samschool789.github.io/sporting-events/')
+        }
+        else if (input == `babblingBrook`) {
+            window.open(`https://github.com/LilCalc/Babbling_Brook`)
+        }
+        {
+            return true; 
+        }
+    };
+</script>
+</body>
